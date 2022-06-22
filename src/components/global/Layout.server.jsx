@@ -56,6 +56,7 @@ export function Layout({children}) {
         </div>
         <Header title={shopName} menu={headerMenu} />
         <main role="main" id="mainContent" className="flex-grow">
+          <h1>TESTING THE PAGE</h1>
           {children}
         </main>
       </div>
